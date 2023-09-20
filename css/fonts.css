@@ -1,0 +1,21 @@
+/* Font linking */
+
+@font-face {
+    font-family: Croissant_One;
+    src: url(../fonts/Croissant_One/CroissantOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Fuggles;
+    src: url(../fonts/Fuggles/Fuggles-Regular.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Kenia;
+    src: url(../fonts/Kenia/Kenia-Regular.ttf);
+}

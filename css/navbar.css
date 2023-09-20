@@ -1,0 +1,127 @@
+/* Closed nav starts here */
+
+nav{
+    z-index: 100;
+}
+
+nav .nav-closed{
+    width: 100%;
+    height: 15vh;
+    padding: 0 30px;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75) inset;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75) inset;
+    -moz-box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75) inset;
+    visibility: visible;
+}
+
+nav .nav-closed .left,
+nav .nav-closed .right{
+    margin: auto 0;
+}
+
+nav .nav-closed .left .logo{
+    height: 90px;
+    width: 200px;
+}
+
+nav .nav-closed .right{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+nav .nav-closed .right .menu{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75);
+}
+
+/* Closed nav ends here */
+
+
+
+/* Opened Nav starts here */
+
+nav .nav-opened{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    /* visibility: hidden; */
+}
+
+nav .nav-opened .close{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+nav .nav-opened .close img{
+    cursor: pointer;
+}
+
+nav .nav-opened .nav-item{
+    margin: auto;
+}
+
+nav .nav-opened .left{
+    margin-bottom: 0;
+    margin-top: 10vh;
+}
+
+nav .nav-opened .right{
+    margin-top: 0;
+}
+
+nav .nav-opened .left .logo{
+    height: 140px;
+    width: 300px;
+    padding: 15px 0;
+}
+
+nav .nav-opened .left .logo img{
+    background-color: #fff;
+}
+
+nav .nav-opened .right .nav-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav .nav-opened .right .nav-list .nav-link{
+    margin: 10px 0;
+}
+
+nav .nav-opened .right .nav-list .nav-link a{
+    color: #fff;
+    padding: 3px;
+    transition: all 0.1s ease;
+    font-family: Kenia,serif;
+    font-size: 30px;
+    transition: all 0.1s ease;
+}
+
+nav .nav-opened .right .nav-list .nav-link a:hover{
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75) inset;
+}
+
+/* Opened Nav ends here */
