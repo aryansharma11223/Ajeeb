@@ -17,7 +17,6 @@ nav .nav-closed{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-    visibility: visible;
 }
 
 nav .nav-closed .left,
@@ -71,7 +70,6 @@ nav .nav-opened{
     display: flex;
     flex-direction: column;
     background-color: blueviolet;
-    /* visibility: hidden; */
 }
 
 nav .nav-opened .close{
@@ -109,6 +107,7 @@ nav .nav-opened .left .logo{
 
 nav .nav-opened .left .logo img{
     background-color: #fff;
+    border-radius: 3px;
 }
 
 nav .nav-opened .right .nav-list{

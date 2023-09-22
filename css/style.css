@@ -1,3 +1,42 @@
 #hero{
+    padding-top: 20vh;
+}
+
+#hero .hero-carousel .slideshow .img-wrapper {
+    display: none;
+    height: 70vh;
+}
+
+#hero .hero-carousel .slideshow .img-wrapper img {
+    height: 100%;
+    object-fit: cover;
     width: 100%;
+}
+
+#hero .hero-carousel .slideshow .dots {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+#hero .hero-carousel .slideshow .dots > .dot {
+    background: #fff;
+    height: 0.5vw;
+    margin: -1.4em 3vw;
+    /* flex-grow: 1; */
+}
+
+#hero .hero-carousel .slideshow .dots > .dot.active {
+    background: red;
+}
+
+@media (min-width: 750px) {
+    #hero .hero-carousel .slideshow .dots {
+        max-width: 600px;
+        margin: auto;
+   }
+   #hero .hero-carousel .slideshow .dots > .dot {
+        height: 5px;
+   }
 }
