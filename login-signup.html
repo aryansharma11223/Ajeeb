@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Account Creation | Ajeeb</title>
+
+    <!-- Linking tab icon here -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- CSS Linking -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/login-signup.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+
+<body>
+
+    <!-- Navbar starts here -->
+
+    <nav>
+        <div id="nav-closed" class="nav-closed">
+            <div class="left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="login">
+                    <a href="#">
+                        <button>Login</button>
+                    </a>
+                </div>
+                <div id="open-nav" class="menu">
+                    <img src="images/menu-icon.png" alt="menu">
+                </div>
+            </div>
+        </div>
+
+        <div id="nav-opened" class="nav-opened">
+            <div id="close-nav" class="close">
+                <img src="images/close-icon.png" alt="close">
+            </div>
+
+            <div class="left nav-item">
+                <div class="logo">
+                    <a href="index.html" id="close-nav">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+            </div>
+
+            <div class="right nav-item">
+                <ul class="nav-list">
+                    <li class="nav-link" id="close-nav"><a href="index.html">Home</a></li>
+                    <li class="nav-link" id="close-nav"><a href="#">Offers</a></li>
+                    <li class="nav-link" id="close-nav"><a href="#">Shop By Category</a></li>
+                    <li class="nav-link" id="close-nav"><a href="#">Donate Here</a></li>
+                    <li class="nav-link" id="close-nav"><a href="#">About Us</a></li>
+                    <li class="nav-link" id="close-nav"><a href="#">Contact Us</a></li>
+                    <li class="nav-link" id="close-nav"><a href="#">Profile</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navbar ends here -->
+
+    <!-- Login Sighup form starts here -->
+
+    <section id="login-signup">
+        <div class="container">
+            <div class="forms-container">
+                <div class="signin-signup">
+                    <form action="#" class="sign-in-form">
+                        <h2 class="title">Sign in</h2>
+                        <div class="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Username" />
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Password" />
+                        </div>
+                        <input type="submit" value="Login" class="btn solid" />
+                        <p class="social-text">Or Sign in with social platforms</p>
+                        <div class="social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-google"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </form>
+                    <form action="#" class="sign-up-form">
+                        <h2 class="title">Sign up</h2>
+                        <div class="input-field">
+                            <i class="fas fa-user"></i>
+                            <input type="text" placeholder="Username" />
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-envelope"></i>
+                            <input type="email" placeholder="Email" />
+                        </div>
+                        <div class="input-field">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" placeholder="Password" />
+                        </div>
+                        <input type="submit" class="btn" value="Sign up" />
+                        <p class="social-text">Or Sign up with social platforms</p>
+                        <div class="social-media">
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-google"></i>
+                            </a>
+                            <a href="#" class="social-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content">
+                        <h3>New here ?</h3>
+                        <p>
+                            Are you new here?
+                            <br>
+                            Start exploring with signing up here!
+                        </p>
+                        <button class="btn transparent" id="sign-up-btn">
+                            Sign up
+                        </button>
+                    </div>
+                    <img src="https://i.ibb.co/6HXL6q1/Privacy-policy-rafiki.png" class="image" alt="" />
+                </div>
+                <div class="panel right-panel">
+                    <div class="content">
+                        <h3>One of us ?</h3>
+                        <p>
+                            Already a customer?<br>
+                            Know details about your account with signing in here!
+                        </p>
+                        <button class="btn transparent" id="sign-in-btn">
+                            Sign in
+                        </button>
+                    </div>
+                    <img src="https://i.ibb.co/nP8H853/Mobile-login-rafiki.png" class="image" alt="" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Sighup form ends here -->
+</body>
+
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="jquery/manu-toggle.js"></script>
+<script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+<script src="js/login-signup.js"></script>
+
+</html>
