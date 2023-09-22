@@ -4,8 +4,7 @@
 }
 
 #login-signup{
-  position: relative;
-  width: 100%;
+  padding-top: 12vh;
 }
 
 #login-signup .container {

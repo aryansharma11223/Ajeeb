@@ -1,0 +1,83 @@
+footer .footer-container{
+    background-color: #15151e;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 50px 30px;
+}
+
+footer .footer-container .footer-part{
+    width: 23%;
+    height: fit-content;
+    margin: 12px;
+}
+
+footer .footer-container .footer-part .footer-part-head{
+    padding: 15px 0;
+}
+
+footer .footer-container .footer-part .footer-part-head h4{
+    color: #fff;
+}
+
+footer .footer-container .footer-part:nth-child(2) .footer-part-desc ul li,
+footer .footer-container .footer-part:nth-child(5) .footer-part-desc ul li{
+    display: inline-block;
+    margin: 8px 3px;
+}
+
+footer .footer-container .footer-part:nth-child(2) .footer-part-desc a{
+    padding: 5px;
+    border: 1px solid #FFFFFF80;
+    border-radius: 3px;
+}
+
+footer .footer-container .footer-part:nth-child(5) .footer-part-desc a{
+    border: 1px solid #FFFFFF80;
+    padding: 5px 10px;
+    border-radius: 50%;
+}
+
+footer .footer-container .footer-part:nth-child(2) .footer-part-desc a:hover,
+footer .footer-container .footer-part:nth-child(5) .footer-part-desc a:hover{
+    background-color: #F86F03;
+    border-color: #F86F03;
+    color: #fff;
+}
+
+footer .footer-container .footer-part:nth-child(3) .footer-part-desc ul li,
+footer .footer-container .footer-part:nth-child(6) .footer-part-desc ul li{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #FFFFFF80;
+    padding: 4px;
+}
+
+footer .footer-container .footer-part:nth-child(3) .footer-part-desc ul li a:hover,
+footer .footer-container .footer-part:nth-child(6) .footer-part-desc ul li a:hover{
+    color: #F86F03;
+}
+
+footer .footer-container .footer-part .footer-part-desc p,
+footer .footer-container .footer-part .footer-part-desc a{
+    font-family: Nunito,sans-serif;
+    color: #FFFFFF80;
+    transition: all 0.3s ease;
+}
+
+footer .footer-container .footer-part .footer-part-desc p span{
+    font-weight: bold;
+}
+
+footer .footer-bottom{
+    background-color: #111;
+    padding: 20px 0;
+    color: #FFFFFF80;
+    text-align: center;
+}
+
+footer .footer-bottom a{
+    font-weight: bold;
+    color: #FFFFFF80;
+}
