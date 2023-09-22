@@ -11,10 +11,12 @@ nav .nav-closed{
     position: fixed;
     display: grid;
     grid-template-columns: 50% 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-color: transparent;
-    box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75) inset;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75) inset;
-    -moz-box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75) inset;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     visibility: visible;
 }
 
@@ -26,6 +28,7 @@ nav .nav-closed .right{
 nav .nav-closed .left .logo{
     height: 90px;
     width: 200px;
+    background-color: #fff;
 }
 
 nav .nav-closed .right{
@@ -34,15 +37,24 @@ nav .nav-closed .right{
     margin-right: 50px;
 }
 
+nav .nav-closed .right .login{
+    margin: auto 30px;
+}
+
+nav .nav-closed .right .login button{
+    background-color: transparent;
+    border: 2px solid royalblue;
+    border-radius: 3px;
+    padding: 6px 12px;
+    color: royalblue;
+    font-size: small;
+    cursor: pointer;
+}
+
 nav .nav-closed .right .menu{
     height: 50px;
     width: 50px;
     cursor: pointer;
-    border-radius: 3px;
-    background-color: #fff;
-    box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75);
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(138,48,226,0.75);
 }
 
 /* Closed nav ends here */
