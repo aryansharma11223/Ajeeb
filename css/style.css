@@ -24,7 +24,7 @@
     background: #fff;
     height: 0.5vw;
     margin: -1.4em 3vw;
-    /* flex-grow: 1; */
+    flex-grow: 1;
 }
 
 #hero .hero-carousel .slideshow .dots > .dot.active {

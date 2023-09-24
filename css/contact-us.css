@@ -1,0 +1,130 @@
+#contact{
+    width: 100%;
+    padding-top: 15vh;
+}
+
+#contact .contact-container{
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px 10px;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 65% 35%;
+    align-items: center;
+}
+
+#contact .contact-container .contact-container-left{
+    margin-right: 20px;
+}
+
+#contact .contact-container .contact-container-left,
+#contact .contact-container .contact-container-right{
+    padding: 0 20px;
+}
+
+#contact .contact-container .contact-container-left .head-two{
+    margin-top: 20px;
+}
+
+#contact .contact-container .contact-container-left .head-two::after{
+    content: "";
+    display: block;
+    width: 10%;
+    padding-top: 10px;
+    border-bottom: 3px solid #ec1c24;
+}
+
+#contact .contact-container .contact-container-left h4,
+#contact .contact-container .contact-container-left h3{
+    text-transform: uppercase;
+}
+
+#contact .contact-container .contact-container-left .form-container{
+    padding: 30px 0;
+}
+
+#contact .contact-container .contact-container-left .form-container form{
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-container .contact-container-left .form-container form span{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#contact .contact-container .contact-container-left .form-container form span input:nth-child(1){
+    margin-right: 30px;
+}
+
+#contact .contact-container .contact-container-left .form-container form input,
+#contact .contact-container .contact-container-left .form-container form textarea{
+    margin: 10px 0;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px 5px;    
+}
+
+#contact .contact-container .contact-container-left .form-container form input:focus-visible,
+#contact .contact-container .contact-container-left .form-container form textarea:focus-visible{
+    outline: 2px solid #ec1c24;
+}
+
+#contact .contact-container .contact-container-left .form-container form input::placeholder,
+#contact .contact-container .contact-container-left .form-container form textarea::placeholder{
+    font-size: 16px;
+}
+
+#contact .contact-container .contact-container-left .form-container form input{
+    width: 300px;
+}
+
+#contact .contact-container .contact-container-left .form-container form input[type="checkbox"]{
+    width: auto;
+}
+
+#contact .contact-container .contact-container-left .form-container .btn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#contact .contact-container .contact-container-left .form-container .btn button{
+    border: 2px solid #ec1c24;
+    color: black;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#contact .contact-container .contact-container-left .form-container .btn button:hover{
+    background-color: #ec1c24;
+    color: #fff;
+}
+
+#contact .contact-container .contact-container-right{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#contact .contact-container .contact-container-right .contact-info{
+    margin: 10px 0;
+}
+
+#contact .contact-container .contact-container-right .contact-info .row{
+    margin: 10px 0;
+}
+
+#contact .contact-container .contact-container-right .contact-info .row span{
+    margin-left: 10px;
+}
