@@ -12,8 +12,6 @@ nav .nav-closed{
     padding: 0 30px;
     display: grid;
     grid-template-columns: 50% 50%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     background-color: transparent;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
